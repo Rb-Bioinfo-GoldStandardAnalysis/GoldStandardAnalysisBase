@@ -4,4 +4,4 @@ RUN apt-get update && apt-get install -y --no-install-recommends
 
 ENV SHELL=/bin/bash
 
-CMD ["echo hello world"]
+CMD ["echo", "hello world"]
